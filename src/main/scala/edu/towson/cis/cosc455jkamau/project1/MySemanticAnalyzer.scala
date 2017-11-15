@@ -170,7 +170,7 @@ class MySemanticAnalyzer {
 
         nextToken = parse.pop()
       }
-       // Let's move to the next variable
+      // Let's move to the next variable
       else if (nextToken.equalsIgnoreCase(CONSTANTS.DOCE)) {
         outputStack.push("</html>")
       }
